@@ -1,0 +1,16 @@
+#board {
+    display: grid;
+    grid-template-columns: repeat(16, 30px);
+    grid-template-rows: repeat(16, 30px);
+}
+
+.gridBox {
+    border: 1px solid red;
+    transition: all 1s;
+}
+
+
+.hover {
+    background-color: yellow;
+    transform: scale(1.0);
+}
